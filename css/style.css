@@ -1,5 +1,5 @@
 body { 
-	background-image: url(bg.png);
+	background-image: url(../afbeelding/bg.png);
 	background-repeat: repeat-x; 
 	margin: 0 auto;
 	font-family: sans-serif;
@@ -13,7 +13,7 @@ nav ul li {
 	text-align: center;
     }
 header{
-	background-image: url(header.jpg);
+	background-image: url(../afbeelding/header.jpg);
 	margin: 0 auto;
 	width: 800px;
 	height: 266px;
@@ -28,18 +28,17 @@ a{
 a:hover { 
 	color: yellow;
   }
-
  .top-left{
  	float: left;
- 	padding: 20px;
+ 	padding-left: 20px;
+ 	padding-right: 20px;
  	padding-bottom: 25px;
  }
  article{
  background-color: white;
  padding-bottom: 100px;
   line-height: 24px;
-letter-spacing: 1px;
-
+letter-spacing: 1px;	
  }
  .right{
  	float: right;
@@ -73,4 +72,7 @@ header h1 {
 }
 header p{
 	margin-top: 0px;
+}
+.top-menu{
+	letter-spacing: 1px;
 }
